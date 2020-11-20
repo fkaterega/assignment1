@@ -14,7 +14,7 @@ header h2 {
     color: #CEC8FF;
 }
 
-footer {
+.site-footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
@@ -22,7 +22,7 @@ footer {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #8f137e, #60106B);
+    background-image: linear-gradient(to right, #5637DD, #5a12df, #60106B);
     color: white;
 }
 
@@ -32,6 +32,17 @@ footer {
     min-height: 200px;
 }
 
-.navbar {
+.navbar-dark {
     background-color: #901CAD;
 }
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
